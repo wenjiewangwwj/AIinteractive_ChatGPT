@@ -1,0 +1,28 @@
+# API keys and secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit local config/secrets
+.streamlit/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local virtual environments
+venv/
+.venv/
+
+# Uploaded or private data
+data/
+uploads/
+*.pdf
+*.docx
+*.xlsx
+*.csv
