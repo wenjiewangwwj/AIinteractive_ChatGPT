@@ -267,7 +267,7 @@ def call_openai(prompt: str, model: str) -> str:
                 {"role": "user", "content": prompt},
             ],
             temperature=0.2,
-            max_tokens=MAX_OUTPUT_TOKENS,
+            max_completion_tokens=MAX_OUTPUT_TOKENS,
         )
         return response.choices[0].message.content or ""
     except Exception as exc:

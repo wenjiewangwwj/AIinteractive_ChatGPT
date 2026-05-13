@@ -95,6 +95,11 @@ DEFAULT_CLAUDE_MODEL = "claude-sonnet-4-6"
 
 You can still change the model names from the Streamlit sidebar after the app launches.
 
+
+## OpenAI token parameter note
+
+This version uses `max_completion_tokens` in the OpenAI API call because some newer OpenAI models do not support the older `max_tokens` parameter.
+
 ## Cost control
 
 The app has two cost-control settings in the code:
