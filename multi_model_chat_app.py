@@ -42,8 +42,8 @@ from docx import Document
 
 # These are safe, relatively economical defaults.
 # You can change them in the Streamlit sidebar.
-DEFAULT_OPENAI_MODEL = "gpt-4.1-mini"
-DEFAULT_CLAUDE_MODEL = "claude-3-5-haiku-latest"
+DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
+DEFAULT_CLAUDE_MODEL = "claude-sonnet-4-6"
 
 # Cost controls.
 # The app extracts text from uploads and sends that text to both APIs.

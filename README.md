@@ -83,6 +83,18 @@ Run:
 streamlit run multi_model_chat_app.py
 ```
 
+
+## Default models
+
+This version uses these default models:
+
+```python
+DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
+DEFAULT_CLAUDE_MODEL = "claude-sonnet-4-6"
+```
+
+You can still change the model names from the Streamlit sidebar after the app launches.
+
 ## Cost control
 
 The app has two cost-control settings in the code:
